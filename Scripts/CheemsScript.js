@@ -235,7 +235,7 @@ function cheemText(node) {
     node.childNodes.forEach(e => { 
         if(e.nodeName == "#text") e.data = englishToCheems(e.data) 
         else {
-            if(htmlTags[e.nodeName.toLowerCase()]) chemeText(e);
+            if(htmlTags[e.nodeName.toLowerCase()]) cheemText(e);
         } 
     });
 }
