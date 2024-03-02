@@ -241,3 +241,12 @@ function cheemText(node) {
 }
 
 cheemText(document.body);
+
+const observer = new MutationObserver((list, observer) => {
+	for (const mutation of list)
+	{
+		mutation.addedNodes.forEach(e => cheemText(e));
+	}
+})
+
+observer.observe(document.body, { childList: true, subtree: true });
