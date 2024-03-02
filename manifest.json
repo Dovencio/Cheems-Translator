@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Cheems Translator",
   "version": "1.0",
-  "description": "Changes almost all text provided in webpage to cheems. cheems translator code provided by Miraz Mac (https://www.mirazmac.com) and can be used on https://cheems.mirazmac.com.",
+  "description": "Changes almost all text provided in webpage to cheems. cheems translator code provided by Miraz Mac (https://www.mirazmac.com) and can be used on https://cheems.mirazmac.com. Source code can be found at https://github.com/Dovencio/Cheems-Translator.",
   "content_scripts": [
     {
       "js": [ "Scripts/CheemsScript.js" ],
